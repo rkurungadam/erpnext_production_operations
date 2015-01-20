@@ -1,3 +1,3 @@
 frappe.listview_settings['Production Operations'] = {
-	filters: [["status", "!=", "Complete"]]
+	filters: [["status", "!=", "Complete"], ["status", "!=", "Cancel"]]
 };

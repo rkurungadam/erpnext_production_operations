@@ -1,9 +1,9 @@
 # erpnext_production_operations
 Extends Manufacturing Module of ERPNEXT
-- This app creates Production Operations as specified in BoM on submit of Production Orders 
-- Lists Raw Materials(exploded) to be used in each operation
-- Timesheets entry for Operations
-- All Operations for an Order have to be marked complete before Updating Finished Goods
+- This app creates Production Operations(new entity) corresponding to operations specified in the BoM on submit of Production Order
+- Lists Raw Materials(exploded) to be used in each Production Operation
+- User assignments, Timesheet entry for Operations
+- Update Finished Goods of Production Order requires all Production Operations of the Order to be marked complete
 
 Depends
 - frappe/erpnext https://github.com/frappe/bench
